@@ -1,6 +1,6 @@
 # cephdeploy 
 
-# Ceph node Preparation steps for RHEL8
+### Ceph node Preparation steps for RHEL8
 
 subscription-manager refresh
 
