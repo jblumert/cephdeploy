@@ -98,3 +98,7 @@ ceph osd pool application enable rbdpool rbd
 ```
 ceph fs volume create cephfs
 ```
+### Deploy a RADOS Gateway
+```
+ceph orch apply rgw rados -- placement="1 ceph3" port=80
+```
