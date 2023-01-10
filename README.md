@@ -40,3 +40,7 @@ ceph0
 ```
 ansible-playbook -i hosts cephadm-preflight.yml --extra-vars "ceph_origin=rhcs"
 ```
+
+### bootstrap cluster
+
+
