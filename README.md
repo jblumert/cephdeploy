@@ -1,5 +1,7 @@
 # cephdeploy 
 
+Nodes need DNS resolution and root should have ssh keys exchanged for passwordless ssh
+
 ### Ceph node Preparation steps for RHEL8
 
 ```
