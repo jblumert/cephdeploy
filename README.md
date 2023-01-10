@@ -85,4 +85,14 @@ placement:
 cephadm bootstrap --apply-spec spec.yaml --mon-ip 192.168.252.11 --ssh-private-key /root/.ssh/id_rsa --ssh-public-key /root/.ssh/id_rsa.pub --registry-url registry.redhat.io --registry-username <userid> --registry-password <pwd>
 ```
 
-### 
+
+### Create and enable a new RDB block pool.
+```
+ceph osd pool create rbdpool 32 32
+ceph osd pool application enable rbdpool rbd
+```
+
+### Create the CephFS volume.
+```
+ceph fs volume create cephfs
+```
