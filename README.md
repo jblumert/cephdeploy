@@ -19,3 +19,13 @@ subscription-manager repos --enable=rhceph-5-tools-for-rhel-8-x86_64-rpms
 subscription-manager repos --enable=ansible-2.9-for-rhel-8-x86_64-rpms
 
 dnf install cephadm-ansible
+
+cd /usr/share/cephadm-ansible
+
+Create hosts file:
+host02
+host03
+host04
+
+[admin]
+host01
