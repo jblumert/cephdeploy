@@ -23,9 +23,10 @@ dnf install cephadm-ansible
 cd /usr/share/cephadm-ansible
 
 Create hosts file:
-host02
-host03
-host04
 
-[admin]
-host01
+host02 
+host03 
+host04 
+ 
+[admin] 
+host01 
